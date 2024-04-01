@@ -6,13 +6,13 @@ const apiKey = "AIzaSyD844UJTeuqWkFc75khF0ld-IYWWK0EYRo"; //api 1
 // var currentThumbnailImg = null;
 
 const rightGrid = document.querySelector('.right-grid');
-const spinner = document.querySelector('.spinner-container');
+
 
 // function to fetch by search query
 async function fetchVideos(searchQuery, maxResults) {
     try{
         rightGrid.classList.toggle('d-none');
-        spinner.classList.toggle('d-none');
+       
         const response = await fetch(
             `${baseURL}/search?key=${apiKey}&q=${searchQuery}&maxResults=${maxResults}&part=snippet`
         )
@@ -23,7 +23,7 @@ async function fetchVideos(searchQuery, maxResults) {
         
         await randerVideos(videos);
         rightGrid.classList.toggle('d-none');
-        spinner.classList.toggle('d-none');
+       
     }catch(error){
         console.log(error);
     }

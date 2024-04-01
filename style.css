@@ -179,29 +179,8 @@ button {
 }
 
 
-.spinner-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-.spinner{
-    width: 4rem;
-    height: 4rem;
-    border-radius: 50%;
-    border: .5rem solid gray;
-    border-top-color: skyblue;
-    animation: load .5s linear infinite;
-}
-@keyframes load{
-    to{
-        transform: rotate(360deg);
-    }
-}
+
+
 
 .right-grid {
     /* flex: 1; */
