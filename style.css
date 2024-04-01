@@ -31,10 +31,7 @@ button {
     background-color: #212121;
     color: white;
 }
-.light .main{
-    background-color: white;
-    color: black;
-}
+
 
 .main-content {
     flex: 1;
@@ -63,9 +60,7 @@ button {
 .dark .left>p {
     color: #aaaaaa;
 }
-.light .left>p {
-    color: black;
-}
+
 
 /* .left>p>a {
     color: #aaaaaa;
@@ -73,9 +68,7 @@ button {
 .dark .left>p>a {
     color: #aaaaaa;
 }
-.light .left>p>a {
-    color: black;
-}
+
 
 .left-menu {
     display: flex;
@@ -97,10 +90,7 @@ button {
     background-color: #303030;
     cursor: pointer;
 }
-.light .left-menu:hover {
-    background-color: rgb(213, 209, 209);
-    cursor: pointer;
-}
+
 
 .sports img {
     height: 1.3rem;
@@ -114,9 +104,7 @@ button {
 .dark .hz-line {
     background-color: #303030;
 }
-.light .hz-line {
-    background-color: #c4c0c0;
-}
+
 
 .subs-profile img {
     border-radius: 50%;
@@ -133,9 +121,7 @@ button {
 .dark .right {
     border-top: 1px solid #303030;
 }
-.light .right {
-    border-top: 1px solid white;
-}
+
 
 
 ::-webkit-scrollbar {
@@ -161,11 +147,7 @@ button {
     color: white;
     border: 1px solid #aaaaaa;
 }
-.light .filter-btn {
-    background-color: white;
-    color: black;
-    border: 1px solid black;
-}
+
 
 .filter-btn:first-child {
     /* background-color: #fff;
@@ -176,10 +158,7 @@ button {
     background-color: #fff;
     color: black;
 }
-.light .filter-btn:first-child {
-    background-color: lightgray;
-    color: black;
-}
+
 
 .right-grid-parent{
     flex: 1;
@@ -198,9 +177,7 @@ button {
 .dark .right-grid-parent{
     background-color: black;
 }
-.light .right-grid-parent{
-    background-color: rgb(244, 242, 242);
-}
+
 
 .spinner-container{
     display: flex;
@@ -309,9 +286,7 @@ button {
 .dark .ch-name, .views {
     color: #aaaaaa;
 }
-.light .ch-name, .views {
-    color: #3f3f3f;
-}
+
 .ch-name{
     text-wrap: wrap;
     overflow-x: hidden;

@@ -40,7 +40,7 @@ async function getVideoDuration(videoId) {
     return parseISO8601Duration(duration);
 }
 
-// function to fetch channels etails by api call
+// function to fetch channels details by api call
 async function getChannelData(channelId){
     const response = await fetch(
         `${baseURL}/channels?key=${apiKey}&part=snippet&id=${channelId}`
@@ -133,7 +133,7 @@ async function randerVideos(videos) {
     }
 }
 
-// Create videocard element for a particular video obj
+// Create video card element for a particular video obj
 async function createVideoCard(e, videoId){
     try{
         let videoTitle = e.snippet.title;
